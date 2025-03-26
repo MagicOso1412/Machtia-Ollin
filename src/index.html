@@ -4,78 +4,35 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Machtia Ollin</title>
-    <link rel="stylesheet" href="styles.css">
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            background-color: #fdf7f2;
-            text-align: center;
-            margin: 0;
-            padding: 0;
-        }
-        header {
-            background-color: #e6a48b;
-            padding: 15px;
-            text-align: center;
-            font-size: 24px;
-            font-weight: bold;
-        }
-        .menu {
-            display: flex;
-            justify-content: space-between;
-            padding: 10px;
-        }
-        .nav-button {
-            background: none;
-            border: none;
-            font-size: 18px;
-            cursor: pointer;
-        }
-        .profile {
-            margin: 20px;
-        }
-        .user-icon {
-            color: #e6a48b;
-            font-size: 50px;
-        }
-        .options {
-            display: flex;
-            flex-direction: column;
-            gap: 15px;
-            align-items: center;
-        }
-        .option-button {
-            background-color: #e6a48b;
-            border: none;
-            padding: 15px;
-            width: 80%;
-            font-size: 18px;
-            cursor: pointer;
-            border-radius: 10px;
-        }
-        @media (min-width: 768px) {
-            .options {
-                flex-direction: row;
-                justify-content: center;
-            }
-            .option-button {
-                width: 40%;
-            }
-        }
-    </style>
+    <link rel="stylesheet" href="../css/styles.css">
 </head>
 <body>
     <header>
+		<div class="nav-button"></div>
+		<div class="title">
         Machtia Ollin
+		</div>
+		<div class="nav-button"></div>
     </header>
     <main>
-        <section class="profile">
-            <div class="user-icon"><img src="/icons/users.png" alt=""></div>
-            <p>Usuario</p>
+        <section class="profile">	
+            <div class="user-icon">
+				<img src="../icons/users.svg" alt="" class="icons">
+				<center>Usuario</center>
+			</div>
+            <div class="exercise-title">
+				
+			</div>
         </section>
         <section class="options">
-            <button class="option-button">🏃‍♂️ EJERCITA TU CUERPO</button>
-            <button class="option-button">📖 EJERCITA TU MENTE</button>
+            <a href="estiramientos.html" class="option-button">
+				<img src="../icons/excersisef.svg" class="icons" alt="">
+				<center>EJERCITA TU CUERPO</center>
+			</a>
+            <a class="option-button" href="mente.html">
+				<img src="../icons/mind.svg" class="icons" alt="">
+				<center>EJERCITA TU MENTE</center>
+			</a>
         </section>
     </main>
 </body>
