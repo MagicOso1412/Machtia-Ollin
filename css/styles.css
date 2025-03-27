@@ -1,6 +1,6 @@
 body {	
 	font-family: Arial, sans-serif;
-    background-color: #fdf7f2;
+    background-color: #FDF6EC;
     text-align: center;
     margin: 0;
     padding: 0;
@@ -40,7 +40,7 @@ nav{
 	margin: 50px 0px;
             font-size: 35px;
             font-weight: bold;
-            color: #555;
+            color: #B3B3B3;
         }
 .start-button {
 	background-color: #e6a48b;
@@ -77,13 +77,18 @@ nav{
             color: #555;
         }
 .icons{
-	width: 15%;
-	height: 15%;
+	width: 20%;
+	height: 20%;
 	color: #2c2c2c2c;
 }
-.user-icon {
+.user-icon{
 	font-weight: bold;
     color: #e6a48b;
+    font-size: 50px;
+}
+.icon {
+	font-weight: bold;
+    color: #2c2c2c;
     font-size: 50px;
 }
 @media (min-width: 768px) {
